@@ -1,0 +1,9 @@
+class DoubleRange
+{
+    public static void main(String[] args)
+    {
+         System.out.println(Double.MAX.VALUE);
+         System.out.println(Double.MIN.VALUE);
+
+    }
+}
