@@ -12,7 +12,7 @@ class FinancialApplication
         double numberOfYear = sc.nextDouble();
         System.out.println("Enter the futureInvestmentValue ");
         //double monthlyInterestRate = annualInterestRate/12;
-        double futureInvestmentValue = investmentAmount*(1+annualInterestRate)*numberOfYear*12;
+        double futureInvestmentValue = investmentAmount*(1+annualInterestRate/100)*numberOfYear*12;
         System.out.println("Accumulated value is "+futureInvestmentValue);
 	}
 }
